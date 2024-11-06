@@ -1,0 +1,30 @@
+# Node.js dependencies
+next-chat/node_modules/
+next-chat/.next/
+next-chat/.env.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+chat-app/vendor/
+
+# Golang binaries and build files
+chat-app/*.exe
+chat-app/*.exe~
+chat-app/*.out
+chat-app/*.o
+
+# Ignore Go build artifacts
+chat-app/bin/
+chat-app/pkg/
+
+# OS or Editor files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
